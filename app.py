@@ -42,4 +42,4 @@ def get_partidas():
     return jsonify({"error": "Erro ao buscar dados"}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
